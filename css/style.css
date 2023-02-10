@@ -10,7 +10,7 @@
     --primary-color: #ffffff;
     --header: #255EE9;
     --section-color: #f6f6f6;
-    --button-color: #7289da;
+    --violet: #7289da;
     --footer-color: #23272a;
 }
 
@@ -35,6 +35,15 @@ ul{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-content: flex-start;
+}
+
+.center{
+    align-items: center;
+}
+
+.centratura-testo{
+    text-align: center;
 }
 
 /* header */
@@ -47,6 +56,14 @@ header{
 
 .sezione-grigia{
     background-color: var(--section-color);
+}
+
+.left{
+    width: 60%;
+}
+
+.right{
+    width: 40%;
 }
 
 /* footer */
