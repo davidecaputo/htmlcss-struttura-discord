@@ -53,6 +53,13 @@ header{
     background-color: var(--header);
 }
 
+#hero-image{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: 0% 60%;
+    height: 600px;
+}
+
 /* main */
 
 .sezione-grigia{
