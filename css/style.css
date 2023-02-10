@@ -1,0 +1,27 @@
+/* general */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #ffffff;
+    --header: #255EE9;
+    --section-color: #f6f6f6;
+    --button-color: #7289da;
+    --footer-color: #23272a;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+header{
+    background-color: var(--header);
+}
+
+footer{
+    background-color: var(--footer-color);
+}
