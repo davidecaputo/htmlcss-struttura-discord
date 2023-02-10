@@ -33,6 +33,12 @@ header{
     background-color: var(--header);
 }
 
+/* main */
+
+.sezione-grigia{
+    background-color: var(--section-color);
+}
+
 /* footer */
 
 footer{
