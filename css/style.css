@@ -31,6 +31,12 @@ ul{
     list-style: none;
 }
 
+.flex-elementi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 /* header */
 
 header{
