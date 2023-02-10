@@ -14,14 +14,28 @@
     --footer-color: #23272a;
 }
 
+.contenitore{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 body{
     background-color: var(--primary-color);
 }
+
+.debug{
+    border: 1px solid black;
+}
+
+/* header */
 
 header{
     background-color: var(--header);
 }
 
+/* footer */
+
 footer{
     background-color: var(--footer-color);
+    color: white;
 }
