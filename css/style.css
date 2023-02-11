@@ -12,6 +12,7 @@
     --section-color: #f6f6f6;
     --violet: #7289da;
     --footer-color: #23272a;
+    --black: #000000;
 }
 
 .contenitore{
@@ -58,6 +59,14 @@ header{
     background-size: cover;
     background-position: 0% 60%;
     height: 600px;
+}
+
+.button{
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: var(--black);
 }
 
 /* main */
